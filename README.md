@@ -3,20 +3,20 @@ vikingsMart Database
 This is a relational database with three tables.
 
 The tables are 
-  1. 1. Products
-		1.  product id (primary_key)
-		2. product name
-		3. price
-		4. stock_remaining
-		5. date created
-	2. Categories
-		1. category id (primary_key)
-		2. category name
-	3. Orders
-		1. order id (primary_key)
-		2. order name
-		3. order date
-		4. delivery date
+1. Products
+ a.product id (primary_key)
+ b.product name
+ c.price
+ d.stock_remaining
+ e.date created
+2. Categories
+ a.category id (primary_key)
+ b.category name
+3. Orders
+a. order id (primary_key)
+b. order name
+c. order date
+d. delivery date
 
 To create a relationship between the tables;
 The primary key of categories (category_id) was a made a foreign key in the products table
